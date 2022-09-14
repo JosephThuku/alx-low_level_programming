@@ -1,16 +1,21 @@
 #include "main.h"
 
 /**
- * print_alphabet - a function that prints the alphabet in lowercase
- * followed by a new line.
- * Return : void.
+ * print_alphabet - check the code for ALX School students.
+ *
+ * Return: Always 0.
  */
 
 void print_alphabet(void)
 {
-char alphabet;
-for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
-_putchar(alphabet);
-print_putchar('\n');
-return;
+	char alp = 'a';
+
+	while (alp <= 'z')
+	{
+		_putchar (alp);
+		alp++;
+
+	}
+	_putchar ('\n');
+
 }
