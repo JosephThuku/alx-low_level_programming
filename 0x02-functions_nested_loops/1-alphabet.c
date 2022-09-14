@@ -1,20 +1,20 @@
 #include "main.h"
-
 /**
- * print_alphabet - assecory function
- *
- * Description: Program printing letters
- *
- * Return: always void (success)
+ * print_alphabet - prints lowercase alphabet
+ * Return: 0
  */
-
 void print_alphabet(void)
 {
-	int i;
+	char j;
 
-	for (i = 'a'; i <= 'z'; i++)
+	j = 'a';
+
+	while (j <= 'z')
 	{
-		putchar(i);
-	};
-	putchar('\n');
+
+	_putchar(j);
+	j++;
+	}
+
+	_putchar('\n');
 }
