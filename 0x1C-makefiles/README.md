@@ -1,1 +1,1 @@
-learning make file tto automate c compiling
+# 0x1B.c
