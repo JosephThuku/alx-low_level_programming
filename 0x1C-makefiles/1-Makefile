@@ -1,4 +1,4 @@
 cc:= gcc
-
+.PHONY: all
 all: $(wildcard *.c)
 	$(cc) $ -0 school
